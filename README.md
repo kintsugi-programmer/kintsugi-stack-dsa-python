@@ -23,7 +23,7 @@
     - [1.5. Algorithm Must Be Finite](#15-algorithm-must-be-finite)
     - [1.6. Pseudocode: Mystery Algorithm (Reverse String)](#16-pseudocode-mystery-algorithm-reverse-string)
     - [1.7. Simple Algorithms Example: Sum](#17-simple-algorithms-example-sum)
-    - [1.8. Simple Algorithms Example: Find Largest](#18-simple-algorithms-example-find-largest)
+    - [1.8. Simple Algorithms Example: Find Longest String](#18-simple-algorithms-example-find-longest-string)
   - [2. Math for Programmers](#2-math-for-programmers)
     - [2.1. Exponents](#21-exponents)
     - [2.2. Exercise: Get Estimated Spread (Social Litics)](#22-exercise-get-estimated-spread-social-litics)
@@ -270,17 +270,34 @@ An algorithm must have a **finite** number of steps (not unbounded, uncountable,
 def sum_numbers(nums):
     if len(nums) == 0:
         return 0
-    
+
     s = 0
     for n in nums:
-        s += n
-    
+        s+=n
     return s
+
+l1 = [1,23,45,566]
+print(sum_numbers(l1))
+# 635
 ```
 
 **Edge Case**: Empty list should return 0
 
-### 1.8. Simple Algorithms Example: Find Largest
+### 1.8. Simple Algorithms Example: Find Longest String
+
+```py
+def find_longest_string(lst):
+    longest_so_far= ""
+    for s in lst:
+        if len(s) > len(longest_so_far):
+            longest_so_far = s
+    return longest_so_far
+
+list_of_words = ["Bali","Bhati", "Bhaskar"]
+
+print(find_longest_string(list_of_words))
+# Bhaskar
+```
 
 ---
 
