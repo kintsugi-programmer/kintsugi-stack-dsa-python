@@ -1,7 +1,7 @@
 # kintsugi-stack-dsa-python
 
 
-> “Python doesn’t make you smarter, it removes everything that was making you feel dumb.” - Guido van Rossum
+> “Code is read much more often than it is written.” — Guido van Rossum
 
 - Author: [Kintsugi-Programmer](https://github.com/kintsugi-programmer)
 
@@ -23,6 +23,7 @@
     - [1.5. Algorithm Must Be Finite](#15-algorithm-must-be-finite)
     - [1.6. Pseudocode: Mystery Algorithm (Reverse String)](#16-pseudocode-mystery-algorithm-reverse-string)
     - [1.7. Simple Algorithms Example: Sum](#17-simple-algorithms-example-sum)
+    - [1.8. Simple Algorithms Example: Find Largest](#18-simple-algorithms-example-find-largest)
   - [2. Math for Programmers](#2-math-for-programmers)
     - [2.1. Exponents](#21-exponents)
     - [2.2. Exercise: Get Estimated Spread (Social Litics)](#22-exercise-get-estimated-spread-social-litics)
@@ -278,6 +279,8 @@ def sum_numbers(nums):
 ```
 
 **Edge Case**: Empty list should return 0
+
+### 1.8. Simple Algorithms Example: Find Largest
 
 ---
 
